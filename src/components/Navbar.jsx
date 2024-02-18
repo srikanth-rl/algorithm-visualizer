@@ -6,7 +6,7 @@ function Navbar({ msg }) {
     <div style={{ backgroundColor: "rgba(10, 25, 47, 1)", margin: "auto" }}>
       <nav className="navbar">
         <div>
-          <a className="navbarlink" href="/algorithms-visualizer">
+          <a className="navbarlink" href="https://srikanth-algo-visualizer.netlify.app">
             Home
           </a>
         </div>
