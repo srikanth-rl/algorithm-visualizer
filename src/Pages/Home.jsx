@@ -20,7 +20,7 @@ function Home() {
         <Link className="no_underline" to="/path-finding">
           <Card array={[img1, "Path-Finder"]} />
         </Link>
-        <a className="no_underline" href="algorithms-visualizer" >
+        <a className="no_underline" href="https://srikanth-sorting-visualizer.netlify.app" >
         <Card array={[img2, "Sorting Algorithms"]} />
         </a>
         <Link className="no_underline" to="/nqueens">

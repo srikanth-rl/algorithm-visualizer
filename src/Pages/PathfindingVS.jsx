@@ -301,8 +301,8 @@ function App() {
                   }}
                 >
                   <option value="0">A-Star Search</option>
-                  <option value="1">Breadth-First Search</option>
-                  <option value="2">Depth-First Search</option>
+                  {/* <option value="1">Breadth-First Search</option> */}
+                  {/* <option value="2">Depth-First Search</option> */}
                   <option value="3">Dijkstra</option>
                 </select>
               </div>
@@ -338,11 +338,11 @@ function App() {
                   <option className="my-drop-down-option" disabled value="0">
                     Select Maze
                   </option>
-                  {/* <option value="1">Random basic maze</option>
-                  <option value="2">Randomized_dfs</option> */}
-                  <option value="3">Random maze</option>
+                  {/* <option value="1">Random basic maze</option>*/}
+                  <option value="3">Random_maze</option>
+                  <option value="2">Random_DFS</option> 
                   {/* <option value="4">Kruskal algorithm</option> */}
-                  <option value="5">Prim's algorithm</option>
+                  {/* <option value="5">Prim's algorithm</option> */}
                 </select>
                 <Button
                   className="btn-selector END-maze-btn"

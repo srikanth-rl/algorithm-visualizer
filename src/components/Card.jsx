@@ -5,7 +5,7 @@ function Card(props) {
   const [imgURL, text] = props.array;
   return (
     <div className="card-body">
-      <div style={{ width: "100%", height: "70%" }}>
+      <div style={{ width: "100%", height: "100%" }}>
         <img className="card-img" src={imgURL} alt=""></img>
       </div>
       <div className="card-bottom">
